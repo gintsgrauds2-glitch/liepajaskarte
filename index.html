@@ -37,7 +37,7 @@
         <script>
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[56.50149016192596,20.992032926107484],[56.50977642347561,21.021225356224242]]);
+        }).fitBounds([[56.501687006237724,20.989102760454678],[56.5099732247722,21.018295190571436]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/qgis2web/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -226,6 +226,51 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(223,115,184,0.462)',
+                interactive: true,
+            }
+                    break;
+                case 'Anna Sergina-Vetaškova':
+                    return {
+                pane: 'pane_Jrmala_2',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.462)',
+                dashArray: '5.0,1.0',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(51,160,44,0.462)',
+                interactive: true,
+            }
+                    break;
+                case 'Irina Steļmahova':
+                    return {
+                pane: 'pane_Jrmala_2',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.462)',
+                dashArray: '5.0,1.0',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(36,189,254,0.462)',
+                interactive: true,
+            }
+                    break;
+                case 'Alisa Gurkova':
+                    return {
+                pane: 'pane_Jrmala_2',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.462)',
+                dashArray: '5.0,1.0',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(227,26,28,0.462)',
                 interactive: true,
             }
                     break;
